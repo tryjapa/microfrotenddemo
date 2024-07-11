@@ -2,10 +2,10 @@ const path = require("path");
 
 module.exports = {
   mode: "development", // or 'production'
-  entry: "./src/index.js",
+  entry: "./src/index.jsx",
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "my-complex-bundled-component.js",
+    filename: "my-complex-bundled-component2.js",
     libraryTarget: "window",
     library: "MyMicroFrontend",
   },
