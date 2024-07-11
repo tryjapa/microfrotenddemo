@@ -5,7 +5,7 @@ module.exports = {
   entry: "./src/index.jsx",
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "my-complex-component.js",
+    filename: "my-complex-component1.js",
     libraryTarget: "window",
     library: "MyMicroFrontend",
   },
@@ -28,6 +28,5 @@ module.exports = {
   },
   externals: {
     react: "React",
-    "styled-components": "styled",
   },
 };
