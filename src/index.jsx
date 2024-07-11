@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import ReactDOM from "react-dom";
 
 const Container = styled.div`
   display: flex;
