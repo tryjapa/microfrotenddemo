@@ -5,7 +5,7 @@ module.exports = {
   entry: "./src/index.jsx",
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "my-complex-bundled-component2.js",
+    filename: "my-complex-component.js",
     libraryTarget: "window",
     library: "MyMicroFrontend",
   },
