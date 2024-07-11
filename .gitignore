@@ -38,10 +38,6 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Build directories
-dist/
-build/
-
 # Miscellaneous
 .sass-cache/
 *.swp
